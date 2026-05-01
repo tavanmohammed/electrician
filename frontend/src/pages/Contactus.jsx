@@ -1,4 +1,5 @@
 import { useState } from "react";
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5001";
 
 export default function ContactUs() {
   const [form, setForm] = useState({
@@ -15,7 +16,7 @@ export default function ContactUs() {
     console.log("FORM SUBMITTING:", form);
   
     try {
-      const res = await fetch(`${import.meta.env.VITE_API_URL}/api/contact`), {
+      const res = await fetch(`${API_URL}/api/contact`), {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

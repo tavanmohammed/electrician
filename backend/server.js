@@ -6,7 +6,8 @@ import contactRoute from "./routes/contact.js";
 const app = express();
 
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "http://localhost:5173", "https://electrician-1.onrender.com",
+
   methods: ["GET", "POST"],
   allowedHeaders: ["Content-Type"],
 }));

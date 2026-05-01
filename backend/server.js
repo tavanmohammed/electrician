@@ -9,7 +9,8 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://electrician-1.onrender.com"
+      "https://electrician-1.onrender.com",
+      "stareyeelectric.ca"
     ],
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type"],

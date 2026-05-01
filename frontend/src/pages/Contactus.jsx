@@ -16,8 +16,8 @@ export default function ContactUs() {
     console.log("FORM SUBMITTING:", form);
   
     try {
-      const res = await fetch(`${API_URL}/api/contact`), {
-        method: "POST",
+      const res = await fetch(`${API_URL}/api/contact`, {
+    method: "POST",
         headers: {
           "Content-Type": "application/json",
         },

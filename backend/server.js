@@ -10,7 +10,8 @@ app.use(
     origin: [
       "http://localhost:5173",
       "https://electrician-1.onrender.com",
-      "stareyeelectric.ca"
+      "https://stareyeelectric.ca",
+      "https://www.stareyeelectric.ca"
     ],
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type"],

@@ -40,7 +40,7 @@ export default function Footer() {
             <ul className="space-y-4 text-gray-300">
               <li>Greater Toronto Area, ON</li>
           
-              <li>info@stareye.ca</li>
+              <li>info@stareyeelectric.ca</li>
               <li>(416)618-4222</li>
             </ul>
           </div>

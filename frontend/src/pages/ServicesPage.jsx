@@ -5,6 +5,7 @@ import service3 from "../assets/services3.jpg";
 import service4 from "../assets/services4.jpg";
 import service5 from "../assets/services5.jpg";
 import service6 from "../assets/services6.jpg";
+import service7 from "../assets/service7.jpg"; 
 
 const services = [
   {
@@ -49,7 +50,15 @@ const services = [
       "Electrical troubleshooting, circuit repairs, breaker issues, flickering lights, dead outlets, and safety inspections. We diagnose fast and fix it right — keeping your home or business safe and fully operational.",
     image: service6,
   },
+  {
+    title: "Tesla Charging Installation",
+    subtitle: "Fast response and dependable fixes.",
+    description:
+      "Home and commercial EV charger installation, Tesla Wall Connector setup, Level 2 upgrades, panel capacity checks, and dedicated circuit wiring. We get your vehicle charged up — fast, safe, and to code.",
+    image: service7,
+  },
 ];
+
 
 export default function ServicesPage() {
   return (
